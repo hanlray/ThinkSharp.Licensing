@@ -54,7 +54,7 @@ namespace ThinkSharp.Licensing
         /// <summary>
         /// Optional: A hardware identifier (See also <see cref="HardwareIdentifier"/>)
         /// </summary>
-        internal string HardwareIdentifier { get; }
+        public string HardwareIdentifier { get; }
         private string Signature { get; set; }
         /// <summary>
         /// List of custom key value pairs that are part of the license.
