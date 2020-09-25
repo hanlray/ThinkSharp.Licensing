@@ -74,7 +74,7 @@ namespace ThinkSharp.Licensing
         /// <summary>
         /// Gets a value that indicates if the license expires.
         /// </summary>
-        public bool HasExpirationDate => ExpirationDate != DateTime.MaxValue;
+        public bool HasExpirationDate => ExpirationDate.Date != DateTime.MaxValue.Date;
 
         //  Methods
         // ////////////////////////////////////////////////////////////////////
